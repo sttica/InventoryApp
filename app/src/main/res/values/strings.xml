@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="detail_new_item">Add item</string>
+    <string name="detail_update_item">Edit item</string>
+
+    <string name="category_overview">Overview</string>
+
+    <string name="hint_item_name">Enter item name here</string>
+    <string name="hint_item_price">Enter item price here</string>
+    <string name="hint_item_quantity">Enter item quantity here</string>
+    <string name="hint_item_supplier">Enter item supplier here</string>
+    <string name="edit_picture">Choose picture</string>
+
+    <string name="empty_view_text">No items in store\nclick on + to add an item</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="detail_insert_item_failed">Adding item failed</string>
+    <string name="detail_insert_item_successful">Adding item successful</string>
+    <string name="detail_update_item_failed">Updating item failed</string>
+    <string name="detail_update_item_successful">Updating item successful</string>
+
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+    <string name="delete_all_items">Delete All Items</string>
+    <string name="sale_button">Sale</string>
+
+    <string name="quantityCaption">Quantity:</string>
+    <string name="priceCaption">Price:</string>
+
+    <string name="order">Order more</string>
+    <string name="item_needs">Item needs a</string>
+
+    <string name="name">name</string>
+    <string name="quantity">quantity</string>
+    <string name="price">price</string>
+    <string name="supplier">supplier</string>
+    <string name="picture">picture</string>
+
+    <string name="editor_delete_item_successful">Item deleted</string>
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <string name="unsaved_changes">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

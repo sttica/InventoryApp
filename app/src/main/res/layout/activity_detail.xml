@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/detailPadding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_item_name"
+                android:hint="@string/hint_item_name"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+            <EditText
+                android:id="@+id/edit_item_price"
+                android:hint="@string/hint_item_price"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/increase_quantity"
+                    android:tint="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_add_black_24dp" />
+
+                <EditText
+                    android:id="@+id/edit_item_quantity"
+                    android:hint="@string/hint_item_quantity"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
+
+                <ImageButton
+                    android:id="@+id/decrease_quantity"
+                    android:tint="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_remove_black_24dp" />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/edit_item_supplier"
+                android:hint="@string/hint_item_supplier"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/edit_picture"
+        android:tint="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:src="@drawable/ic_image_black_24dp" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/pictureDetail"
+        android:layout_width="@dimen/imageSizeDetail"
+        android:layout_height="@dimen/imageSizeDetail" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:textColor="@drawable/button_text_color"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/order"
+        android:hint="@string/order"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+</LinearLayout>

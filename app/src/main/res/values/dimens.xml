@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_padding">12dp</dimen>
+    <dimen name="picturePaddingRight">12dp</dimen>
+    <dimen name="detailPadding">12dp</dimen>
+    <dimen name="captionPaddingRight">8dp</dimen>
+    <dimen name="imageSize">60dp</dimen>
+    <dimen name="imageSizeDetail">200dp</dimen>
+
+</resources>
